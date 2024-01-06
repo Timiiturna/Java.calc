@@ -1,0 +1,49 @@
+body{
+    font-weight:bold;
+    background: rgb(187, 164, 164);
+    
+}
+#mastyles-display{
+    color: white;
+}
+#mastyles-container{
+    background-color: rgb(142, 48, 48);
+    width: 200px;
+    height: 278px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom:3px solid black;
+}
+.mastyles-button{
+   color: red;
+   background-color:black;
+   margin-top:18px;
+   margin-left:12px;
+   padding:10px;
+   border-radius:50px;
+   border: none;
+   box-sizing: border-box;
+   cursor: pointer;
+}
+#mastyles-span{
+    width:100px;
+    color:green;
+}
+#mastyles-div{
+    background-color: black;
+    height:70px;
+    width:200px;
+    margin-top:80px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
+    align-items: center;
+}
+.mastyles-button:hover{
+    background-color: white;    
+}
