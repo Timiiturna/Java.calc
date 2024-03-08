@@ -1,10 +1,21 @@
 body{
-    font-weight:bold;
+    font-weight: bold;
     background: rgb(187, 164, 164);
-    
 }
 #mastyles-display{
-    color: white;
+    margin-bottom: 42px;
+    text-align: end;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 14px;
+    margin-left: 10px;
+    color: black;
+    background-color: rgb(187, 164, 164);
+}
+#mastyles-header{
+    margin-top: 45px;
+    color: rgb(187, 164, 164);
+    font-size: smaller;
 }
 #mastyles-container{
     background-color: rgb(142, 48, 48);
@@ -33,6 +44,7 @@ body{
     color:green;
 }
 #mastyles-div{
+    text-align: center;
     background-color: black;
     height:70px;
     width:200px;
@@ -41,6 +53,7 @@ body{
     margin-right:auto;
     display:flex;
     flex-direction:row;
+    row-gap: 200px 160px 160px 160px;
     justify-content:end;
     align-items: center;
 }
