@@ -19,27 +19,30 @@ console.log(secondArr)
         secondArr.push(num);
         currentNumber = Number(secondArr.join(''));
         displayEL.value = currentNumber
-      }
-    }
+      }else if(display === 3){
+        thirdArr.push(num);
+        currentNumber = -Number(thirdArr.join(''));
+        displayEL.value = currentNumber;
+    } else{
+      displayEL.value = previousNumber;
+    };
+  }
     function getOperator(op){
       display = 2;
       operator = op;
-      displayEL.value += operator
+      displayEL.value += operator;
     }
   function equalBtn(){
      if (operator === '+'){
        result = previousNumber + currentNumber
-       displayEL.value = result;
      }else if (operator === '-'){
        result = previousNumber - currentNumber
-       displayEL.value = result;
      }else if (operator === '*'){
        result =  previousNumber * currentNumber
-       displayEL.value = result;
      }else if (operator === '/'){
        result =  previousNumber / currentNumber
-       displayEL.value = result;
      }
+        displayEL.value = result;
    } 
   function Acbtn(){
     displayEL.value = ''
